@@ -17,22 +17,19 @@ int main(void)
 {
 
 char tmp;
+char a;
 
 for (tmp = 'a' ; tmp <= 'z' ; tmp++)
 {
 	putchar(tmp);
 
-	if (tmp == 'z')
-	{
-		for (tmp = 'A' ; tmp <= 'Z' ; tmp++)
-		{
-			putchar(tmp);
+}
 
-			if (tmp == 'Z')
-				putchar('\n');
-		}
-	}
-
+for (a = 'A' ; a <= 'Z' ; a++)
+{
+	putchar(a);
+	if (a == 'Z')
+		putchar('\n');
 }
 
 return (0);
