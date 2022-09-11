@@ -1,0 +1,32 @@
+#include <stdlib.h>
+
+#include <time.h>
+
+#include <stdio.h>
+
+
+
+/**
+ * main - This program prints the alphabets
+ *
+ * Return: Returns null
+ */
+
+int main(void)
+
+{
+
+char tmp;
+
+
+for (tmp = 'a' ; tmp <= 'z' ; tmp++)
+{
+	if (tmp == 'q' || tmp == 'e')
+		continue;
+	putchar(tmp);
+
+}
+
+return (0);
+
+}
