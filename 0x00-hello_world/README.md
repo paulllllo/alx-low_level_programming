@@ -1,0 +1,1 @@
+This is a project for hello world in the ALX SE program.
