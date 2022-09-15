@@ -8,7 +8,7 @@
  * Return: Return void
  */
 
-void _putchar (int arg)
+void _putchar(int arg)
 {
 	putchar(arg);
 
