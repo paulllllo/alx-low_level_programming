@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+int _isdigit(int c);
+
 int _isupper(int c);
 
 void _putchar (int arg);
