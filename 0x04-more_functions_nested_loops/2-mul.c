@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _mul -  A function that multiplies two integers
+ * mul -  A function that multiplies two integers
  *
  * @a: An integer arguement
  * @b: An integer arguement
