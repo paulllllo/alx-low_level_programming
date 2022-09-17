@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit -  A function that checks if a int is a digit
+ * _mul -  A function that multiplies two integers
  *
  * @a: An integer arguement
  * @b: An integer arguement
