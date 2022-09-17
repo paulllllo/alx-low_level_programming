@@ -9,7 +9,7 @@
  * Return: Returns an int c
  */
 
-int _isdigit(int a, int b)
+int mul(int a, int b)
 {
 	int c;
 
