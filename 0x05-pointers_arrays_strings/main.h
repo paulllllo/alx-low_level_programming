@@ -6,6 +6,8 @@
 #include <ctype.h>
 
 
+void swap_int(int *a, int *b);
+
 void reset_to_98(int *n);
 
 void print_most_numbers(void);
