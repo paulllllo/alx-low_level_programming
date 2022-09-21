@@ -18,13 +18,15 @@ void print_rev(char *a)
 
 	for (i = j; i >= 0; i--)
 	{
+		if (count == 0)
+		{
+			_putchar('\0');
+			break;
+		}
 		_putchar(a[i]);
 
 		if (i == 0)
-		{
-			_putchar('\0');
 			_putchar('\n');
-		}
 	}
 
 }
