@@ -10,7 +10,7 @@
 
 void print_rev(char *a)
 {
-	int j,i;
+	int j, i;
 
 	int count = strlen(a);
 
@@ -21,7 +21,10 @@ void print_rev(char *a)
 		_putchar(a[i]);
 
 		if (i == 0)
+		{
+			_putchar('\0');
 			_putchar('\n');
+		}
 	}
 
 }
