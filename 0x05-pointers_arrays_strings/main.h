@@ -7,6 +7,8 @@
 #include <string.h>
 
 
+void print_rev(char *a);
+
 void _puts(char *a);
 
 int _strlen(char *s);
