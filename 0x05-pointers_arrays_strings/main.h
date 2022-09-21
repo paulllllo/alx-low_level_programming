@@ -4,7 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
+
+int _strlen(char *s);
 
 void swap_int(int *a, int *b);
 
