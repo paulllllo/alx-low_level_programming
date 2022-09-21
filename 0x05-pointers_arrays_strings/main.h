@@ -7,6 +7,8 @@
 #include <string.h>
 
 
+void _puts(char *a);
+
 int _strlen(char *s);
 
 void swap_int(int *a, int *b);
