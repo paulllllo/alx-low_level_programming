@@ -8,9 +8,8 @@
  * Return: Returns the var tmp.
  */
 
-int _puts(char *a)
+void _puts(char *a)
 {
 	puts(a);
 
-	return (0);
 }
