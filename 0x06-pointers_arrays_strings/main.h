@@ -7,6 +7,9 @@
 #include <string.h>
 
 
+
+char *leet(char *s);
+
 char *cap_string(char *a);
 
 char *string_toupper(char *a);
