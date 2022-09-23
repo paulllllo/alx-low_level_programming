@@ -6,10 +6,10 @@
  *@s1: A string
  *@s2: A string
  *
- * Return: Always 0.
+ * Return: Returns 0 if strings are equal, >0 if s1 is > s2, <0 if s1 < s2
  */
 
-char *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	return (strcmp(s1, s2));
 }
