@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * string_toupper - coverts a string to uppercase
+ *
+ *@a: A pointer to the string
+ *
+ * Return: Returns a pointer to a string
+ */
+
+char *string_toupper(char *a)
+{
+	int i = 0;
+
+	while (a[i] != '\0')
+	{
+		printf("Inside while loop :%s", a);
+		if (islower(a[i]) > 0)
+		{
+			printf("Inside IF islower %c changed to %c", a[i], toupper(a[i]));
+			a[i] = toupper(a[i]);
+		}
+
+		i++;
+	}
+
+	return (a);
+}
