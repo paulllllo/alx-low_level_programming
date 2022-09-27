@@ -1,0 +1,15 @@
+#include "main.h"
+
+/**
+ * _strstr - returns a pointer to the start of a substring in another string
+ *
+ *@haystack: A pointer to the source array to be searched through
+ *@needle: string to be found
+ *
+ * Return: Returns a pointer to the start of selected substring or NULL if none
+ */
+
+char *_strstr(char *haystack, char *needle);
+{
+	return (strstr(haystack, needle));
+}
