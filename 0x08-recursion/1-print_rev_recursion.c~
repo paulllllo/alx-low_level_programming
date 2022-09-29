@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _puts_recursion - recursively prints a string char by char
+ * _print_rev_recursion - recursively prints a string in reverse
  *
  *@s: A string
  *
  * Return: return void
  */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	char *ptr = s;
 
@@ -17,6 +17,6 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
+	_print_rev_recursion(ptr + 1);
 	_putchar(s[0]);
-	_puts_recursion(ptr + 1);
 }

@@ -6,6 +6,8 @@
 #include <ctype.h>
 
 
+void _print_rev_recursion(char *s);
+
 void _puts_recursion(char *s);
 
 int mul(int a, int b);
