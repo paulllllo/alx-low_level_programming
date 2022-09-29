@@ -5,8 +5,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include <math.h>
 
 
+int _pow_recursion(int x, int y);
 
 int factorial(int n);
 
