@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main - A function that adds positive numbers
@@ -19,7 +18,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	if (i == 0)
 	{
 		printf("0\n");
-		return (1);
+		return (0);
 	}
 	else
 	{
