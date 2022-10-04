@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - A function that adds positive numbers
@@ -27,11 +28,11 @@ int main(int argc, char *argv[] __attribute__((unused)))
 
 		for (j = 1 ; j < argc ; j++)
 		{
-			int k = atoi(argv[j]);
+			char *k = argv[j];
 
-			if (k)
+			if (isdigit(*k))
 			{
-				sum = sum + k;
+				sum = sum + atoi(k);
 			}
 			else
 			{
