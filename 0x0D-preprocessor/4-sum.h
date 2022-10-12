@@ -9,7 +9,7 @@
 
 #define PI 3.14159265359
 #define ABS(x) abs((x))
-#define SUM(x, y) ((x) * (y))
+#define SUM(x, y) ((x) + (y))
 
 char *_strstr(char *haystack, char *needle);
 
