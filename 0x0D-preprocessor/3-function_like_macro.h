@@ -8,7 +8,7 @@
 
 
 #define PI 3.14159265359
-#define ABS(x) abs(x)
+#define ABS(x) ((x) < 0 ? (x) * -1 : (x))
 
 
 char *_strstr(char *haystack, char *needle);
