@@ -9,10 +9,10 @@
  * Return: returns 0
  */
 
-int main(int __attribute__ ((unused)) argc,
-	 char __attribute__ ((unused)) *argv[])
+int main(int argc,
+	 char *argv[])
 {
-	int __attribute__ ((unused)) a, b;
+	int a, b;
 
 	int (*c)(int, int);
 
