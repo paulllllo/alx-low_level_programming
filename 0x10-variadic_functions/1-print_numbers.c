@@ -3,7 +3,7 @@
 /**
  * print_numbers - Prints numbers with a seperator variable
  *
- *@seperator: A char which is printed between numbers
+ *@separator: A char which is printed between numbers
  *@n: A constant int that represents the number of var args
  *
  *Return: void
