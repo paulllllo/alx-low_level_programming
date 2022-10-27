@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * listint_ent - A function that counts all the elements of a list
+ * listint_len - A function that counts all the elements of a list
  * @h: the head of the linked list
  *
  * Return: Returns the number of nodes in the list.
