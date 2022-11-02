@@ -2,8 +2,10 @@
 
 /**
  * read_textfile - reads a file and writes it to stdout
+ *
  * @filename: name of the file to read
  * @letters: number of characters to read/write
+ *
  * Return: number of characters read/written
  */
 

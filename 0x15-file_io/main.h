@@ -3,6 +3,9 @@
 #define MAIN_H
 
 
+
+#include cstring.h>
+
 #include <sys/stat.h>
 
 #include <sys/stat.h>
