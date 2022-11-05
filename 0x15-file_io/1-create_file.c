@@ -32,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 		wr = write(fd, "", strlen(""));
 	}
 	close(fd);
-	if (wr > 0)
+	if (wr == 0 || wr > 0)
 		return (1);
 	else
 		return (-1);
