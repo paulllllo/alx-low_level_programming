@@ -15,7 +15,7 @@
 
 int main(int argc, char *argv[])
 {
-	int fd_to, fd_from;
+	int fd_to, fd_from, clz;
 	size_t count = 0;
 	ssize_t rd, wr;
 	char *buf = malloc(1024);
@@ -27,7 +27,8 @@ int main(int argc, char *argv[])
 	}
 	fd_from = open(argv[1], O_RDONLY);
 	rd = read(fd_from, buf, 1024);
-	if (close(fd_from) < 0)
+	clz = close(fd_from);
+	if (clz < 0)
 	{
 		dprintf(2, "Error: Can't close fd %d\n", fd_from);
 		exit(100);
@@ -47,7 +48,8 @@ int main(int argc, char *argv[])
 		dprintf(2, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	if (close(fd_to) < 0)
+	clz = close(fd_to);
+	if (clz < 0)
 	{
 		dprintf(2, "Error: Can't close fd %d\n", fd_to);
 		exit(100);
