@@ -41,7 +41,6 @@ int main(int argc, char *argv[])
 	}
 	while (buf[count])
 		count++;
-	umask(0);
 	fd_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 00664);
 	wr = write(fd_to, buf, count);
 	if (fd_to < 0 || ((int) wr) < 0)
@@ -55,5 +54,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
 		exit(100);
 	}
+	free(buf);
+	buf = NULL;
 	return (0);
 }
