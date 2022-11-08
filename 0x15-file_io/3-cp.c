@@ -27,16 +27,16 @@ int main(int argc, char *argv[])
 	}
 	fd_from = open(argv[1], O_RDONLY);
 	rd = read(fd_from, buf, 1024);
+	if (fd_from < 0 || ((int) rd) < 0)
+	{
+		dprintf(2, "Error: Can't read from file %s\n", argv[1]);
+		exit(98);
+	}
 	clz = close(fd_from);
 	if (clz < 0)
 	{
 		dprintf(2, "Error: Can't close fd %d\n", fd_from);
 		exit(100);
-	}
-	if (fd_from < 0 || ((int) rd) < 0)
-	{
-		dprintf(2, "Error: Can't read from file %s\n", argv[1]);
-		exit(98);
 	}
 	while (buf[count])
 		count++;
