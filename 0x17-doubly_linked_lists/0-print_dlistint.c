@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_list - print each string of a doubly linked list
+ * print_dlistint - print each string of a doubly linked list
  * @h: the head of a doubly linked list
  * Return: the length of the linked list
  */
