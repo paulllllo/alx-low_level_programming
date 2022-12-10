@@ -1,1 +1,1 @@
-A dir for ALX project doubly linked lists
+# C - Doubly linked lists\n
