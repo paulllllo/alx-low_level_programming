@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * dlistint_t - adds a node at the start of a DLL
+ * add_dnodeint - adds a node at the start of a DLL
  *
  * @head: the head of a doubly linked list
  * @n: the int in DLL
