@@ -1,0 +1,83 @@
+/**
+ * add - adds two integers
+ *
+ * @a - first int
+ * @b - second int
+ *
+ * Return: sum of ints.
+ */
+
+int add(a, b)
+{
+    return (a + b);
+}
+
+
+/**
+ * sub - subtracts two integers
+ *
+ * @a - first int
+ * @b - second int
+ *
+ * Return: a - b
+ */
+
+
+
+int sub(a, b)
+{
+	return (a - b);
+}
+
+
+
+/**
+ * mul - multiplies two integers
+ *
+ * @a - first int
+ * @b - second int
+ *
+ * Return: a * b
+ */
+
+
+
+int mul(a, b)
+{
+	return (a * b);
+}
+
+
+
+/**
+ * div - div two integers
+ *
+ * @a - first int
+ * @b - second int
+ *
+ * Return: a / b
+ */
+
+
+
+int div(a, b)
+{
+	return (a / b);
+}
+
+
+
+/**
+ * mod - returns remainder after dividing two integers
+ *
+ * @a - first int
+ * @b - second int
+ *
+ * Return: a % b
+ */
+
+
+int mod(a, b)
+{
+        return (a % b);
+}
